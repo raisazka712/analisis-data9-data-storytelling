@@ -1,0 +1,42 @@
+Kamu telah memutuskan untuk membuka sebuah kafe kecil di Los Angeles. Kafe milikmu bisa dibilang cukup unik karena kamu "memperkerjakan" robot sebagai pelayan atau pramusaji. Proyek ini memang menjanjikan, tetapi membutuhkan modal yang besar. Oleh karena itu, kamu dan para mitra memutuskan untuk menarik minat investor agar mau berinvestasi. Mereka tertarik dengan kondisi pasar saat ini—tetapi, apakah kamu bisa mempertahankan kesuksesan saat daya tarik sang robot mulai pudar?
+
+Mengingat kamu adalah seorang pakar analisis, para mitra pun memintamu untuk mempersiapkan sejumlah riset pasar. Kamu memiliki data open-source terkait jenis-jenis usaha tempat makan di LA.
+
+Instruksi untuk menyelesaikan proyek
+
+Langkah 1. Mengunduh data dan menyiapkannya untuk analisis
+
+Unduh data terkait berbagai jenis usaha tempat makan di LA. Pastikan bahwa tipe data untuk setiap kolomnya sudah benar dan tidak ada nilai yang hilang atau duplikat. Lakukan pra-pemrosesan data jika diperlukan.
+
+File path: /datasets/rest_data_us.csv. Unduh dataset
+
+Langkah 2. Analisis data
+
+-Teliti proporsi dari berbagai jenis usaha. Buat grafiknya.
+-Teliti proporsi dari usaha berbasis waralaba dan nonwaralaba. Buat grafiknya.
+-Jenis usaha mana yang biasanya merupakan usaha berbasis waralaba?
+-Mana yang merupakan ciri-ciri dari jenis usaha berbasis waralaba: memiliki banyak tempat dengan jumlah kursi yang sedikit atau memiliki beberapa tempat dengan jumlah kursi yang banyak?
+-Tentukan jumlah rata-rata kursi untuk setiap jenis usaha. Secara rata-rata, jenis usaha mana yang memiliki jumlah kursi terbanyak? Buat grafiknya.
+-Pindahkan data nama jalan dari kolom address ke kolom terpisah.
+-Buat grafik yang menampilkan sepuluh nama jalan teratas berdasarkan jumlah usaha (tempat makan).
+-Temukan jumlah jalan yang hanya memiliki satu usaha (tempat makan).
+-Untuk jalan yang dihuni oleh banyak usaha (tempat makan), perhatikan distribusi jumlah kursinya. Tren apa yang bisa kamu amati?
+-Buat kesimpulan umumnya dan berikan rekomendasi tentang jenis usaha dan jumlah kursinya. Berikan komentar tentang peluang pengembangan usaha berbasis waralaba. 
+
+Langkah 3. Mempersiapkan presentasi
+
+Siapkan presentasi penelitianmu untuk dibagikan kepada para investor. Kamu bisa menggunakan tool apa saja untuk membuatnya, tetapi kamu harus mengonversinya ke dalam format PDF agar presentasimu lebih mudah untuk dinilai. Sertakan tautan menuju presentasi pada sel markdown dalam format berikut:
+
+Presentasi: <tautan ke penyimpanan cloud>
+Ikuti panduan pemformatan dari bab "Mempersiapkan Presentasi".
+
+Format: Selesaikan tugasmu di Jupyter Notebook. Masukkan kodemu di sel kode dan ketik teks penjelasanmu di sel markdown. Terapkan pemformatan dan tambahkan judul.
+
+Deskripsi data
+Tabel rest_data:
+
+object_name — nama usaha
+chain — usaha berbasis waralaba (TRUE/FALSE)
+object_type — jenis usaha
+address — alamat
+number — jumlah kursi
